@@ -1,0 +1,26 @@
+{
+  "user": [
+    {
+      "id": "2",
+      "name": "Rino",
+      "age": 20,
+      "email": "example2@gmail.com",
+      "PhoneNo": "94128845",
+      "city": "Bengaluru"
+    },
+    {
+      "id": "25",
+      "name": "JABARSON RICHARD G S",
+      "email": "jabarsonrichardofficial@gmail.com",
+      "age": "23",
+      "city": "Coimbatore"
+    },
+    {
+      "id": "3ko",
+      "name": "newbie",
+      "email": "newbie@gmail.com",
+      "age": "12",
+      "city": "Newyork"
+    }
+  ]
+}

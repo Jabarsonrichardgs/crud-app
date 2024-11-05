@@ -1,0 +1,158 @@
+body{
+   /* background: url('../src/assets/images/bg3.jpg');
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   
+   background-attachment: fixed; */
+   background-color: #f51059;
+    color: #fff;
+}
+
+
+.list{
+    width: 65%;
+    margin: auto;
+    padding-top: 20px;
+}
+table,td,th{
+    text-align: center;
+}
+.search{
+    width: 50%;
+    display: inline;
+    margin-right: 15px;
+    
+}
+.search-content{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.list-head-content h1{
+    text-align: center;
+}
+
+.create-users label{
+    display: block;
+   
+}
+.create-users input{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.create-users{
+    color: #fff;
+    width: 75%;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 1em;
+    padding: 2em;
+    box-shadow: 0 0 12px 2px rgb(147, 147, 147);
+    background-color: #000000;
+}
+.create-users h2{
+    text-align: center;
+}
+.view_details{
+    margin-top: 60px !important;
+    width: 60%;
+    margin: auto;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 30px;
+    box-shadow: 0 0 12px 2px #636363;
+    border-radius: 15px;
+}
+.view_details h2{
+    text-align: center;
+    color: #f51059;
+    margin-bottom: 40px;
+}
+.view_details strong{
+    color: red;
+ 
+}
+.view_details p{
+    font-weight: bolder;
+}
+.btn1{
+    margin-top: 10px;
+    padding: 10px 25px !important;
+}
+table{
+    overflow-x: hidden;
+}
+@media screen and (max-width:587px) {
+    .create-users{
+        width: 100%;
+        margin-top: 10px;
+        
+    }
+    .create-buttons{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:436px){
+    .create-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+   
+}
+@media screen and (max-width:1384px){
+  .list{
+    width: 100%;
+  }
+   
+}
+
+@media screen and (max-width:923px) {
+    .list-bns{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        justify-content: space-evenly;
+        
+
+    }.list{
+        padding: 10px;
+    }
+    .search{
+        
+        
+        width: 100%;
+        display: inline;
+        margin-right: 15px;
+        
+    }
+    .search-content{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    .list-head-content {
+        width: 100vw;
+       
+    }
+}
+
+@media screen and (max-width:506px){
+    .view_details{
+        width: 100%;
+    }
+}
+@media screen and (max-width:438px){
+    .back{
+        width: 94%;
+    }
+}
